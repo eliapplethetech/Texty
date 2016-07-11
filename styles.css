@@ -1,0 +1,45 @@
+input {
+  border: 0px; /* Hide the border to hide the text box */
+  width: 100%; /* Fill entire screen. */
+  font-size: 100px; /* Make it BIG! */
+  text-align: center; /* Put in center. */
+  top: -10; /* Make it go down a little. */
+}
+html {
+  font-family: Arial; /* Initialize font. */
+  text-align: center; /* Put in center. */
+}
+button {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 20px;
+  color: #000000;
+  transition: 250ms ease-out;
+  font-size: 8px;
+  margin: 0;
+}
+button:hover {
+  background: #CCCCCC;
+  color: #FFFFFF;
+  box-shadow: 6 6 12 16 #000000;
+}
+button:active {
+  background: #C0C0C0;
+  border: 1px solid #C0C0C0;
+}
+#edit-footer {
+	width: 100%;
+	border-radius: 0px;
+	border: 0px solid;
+	font-size: 15px;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	border-bottom: 2px solid #cccccc;
+}
+#edit-footer:hover {
+    background: #76c458;
+	border-bottom: 2px solid #64a54a;
+}
+
+/* Created by Eli! */
